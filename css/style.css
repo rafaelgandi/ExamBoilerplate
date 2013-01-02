@@ -1,0 +1,77 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;	
+	/* For IE6 and IE7  See: https://github.com/Schepp/box-sizing-polyfill*/
+	*behavior: url(css/boxsizing.htc); 
+}
+a:hover, 
+a:active,
+a:visited,
+a:link { outline: none; }
+.hide { display: none; }
+.show { display : block; }
+.visible { visibility : visible; }
+.invisible { visibility : hidden;}
+.redb {border: 1px solid red;}
+.u {text-decoration: underline;}
+.b {font-weight: bold;}
+.i {font-style: italic;}
+.glow {
+	-webkit-box-shadow: 0 0 10px rgba(50, 50, 50, 0.8);
+	box-shadow: 0 0 10px rgba(50, 50, 50, 0.5);	
+}
+.valign-top {vertical-align: top;}
+.valign-middle {vertical-align: middle;}
+.valign-bottom {vertical-align: bottom;}
+.align-r {text-align: right;}
+.align-l {text-align: left;}
+.align-j {text-align: justify;}
+.align-c {text-align: center;}
+.away {
+	position: absolute;
+	top: -1000px;
+	left: -1000px;
+}
+.inline {display: inline;}
+.block {display: block;}
+.clear {clear:both; font-size:0; height:0px; line-height:0;}
+.left {float: left !important;}
+.right {float: right !important;}
+.inline_block {display: inline-block !important;}
+.roundies5 {-moz-border-radius: 5px;-webkit-border-radius: 5px;border-radius: 5px;}
+.roundies10 {-moz-border-radius: 10px;-webkit-border-radius: 10px;border-radius: 10px;}
+.opacity50 {opacity: 0.5; filter: alpha(opacity=50);}
+.opacity0 {opacity: 0; filter: alpha(opacity=0);}
+
+/************ end of DEV STYLES ***********/
+body {
+	font-family: arial;
+	margin:0;
+	padding:0;
+	position: relative;
+	background: url("../images/SOME_IMAGE.JPG") repeat-x bottom #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+	
