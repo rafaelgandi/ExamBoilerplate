@@ -1,9 +1,10 @@
+/* LM: 01-17-2013 */
 * {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-ms-box-sizing: border-box;
 	box-sizing: border-box;	
-	/* For IE6 and IE7  See: https://github.com/Schepp/box-sizing-polyfill*/
+	/* For IE6 and IE7  See: https://github.com/Schepp/box-sizing-polyfill */
 	*behavior: url(css/boxsizing.htc); 
 }
 a:hover, 
@@ -39,7 +40,15 @@ a:link { outline: none; }
 .clear {clear:both; font-size:0; height:0px; line-height:0;}
 .left {float: left !important;}
 .right {float: right !important;}
-.inline_block {display: inline-block !important;}
+.inline_block {
+	display: inline-block;
+	vertical-align: top;
+}
+.ie6 .inline_block,
+.ie7 .inline_block {
+	zoom:1;
+	display: inline;
+}
 .roundies5 {-moz-border-radius: 5px;-webkit-border-radius: 5px;border-radius: 5px;}
 .roundies10 {-moz-border-radius: 10px;-webkit-border-radius: 10px;border-radius: 10px;}
 .opacity50 {opacity: 0.5; filter: alpha(opacity=50);}
@@ -53,7 +62,8 @@ body {
 	position: relative;
 	background: url("../images/SOME_IMAGE.JPG") repeat-x bottom #fff;
 }
-
+a, a:active, a:visited, a:link {}
+a:hover {}
 
 
 
