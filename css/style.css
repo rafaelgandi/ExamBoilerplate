@@ -1,4 +1,4 @@
-/* LM: 01-17-2013 */
+/* LM: 02-18-2013 */
 * {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -55,6 +55,13 @@ a:link { outline: none; }
 .opacity0 {opacity: 0; filter: alpha(opacity=0);}
 
 /************ end of DEV STYLES ***********/
+/* IE notice box styles */
+.oldie #ie_notice {
+	position: absolute; top: 0px; left: 0px;
+	width: 100%; display: block; font-size: 30px; font-weight: bold;
+	background-color: yellow; z-index: 100; text-align: center; padding: 20px;
+	border: 2px solid #ccc;
+}
 body {
 	font-family: arial;
 	margin:0;
@@ -64,7 +71,13 @@ body {
 }
 a, a:active, a:visited, a:link {}
 a:hover {}
-
+nav ul {
+	margin:0;
+	padding:0;			
+	list-style: none;
+}
+	nav li { float: left; }
+	nav a { text-decoration: none; }
 
 
 
