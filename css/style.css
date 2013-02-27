@@ -37,7 +37,7 @@ a:link { outline: none; }
 }
 .inline {display: inline;}
 .block {display: block;}
-.clear {clear:both; font-size:0; height:0px; line-height:0;}
+.clear, .clr {clear:both; font-size:0; height:0px; line-height:0;}
 .left {float: left !important;}
 .right {float: right !important;}
 .inline_block {
@@ -67,6 +67,8 @@ body {
 	margin:0;
 	padding:0;
 	position: relative;
+	overflow-x: hidden; /* Needed for IE, so that the horizontal scrollbar won't show if box-shadow is used. */
+	
 	background: url("../images/SOME_IMAGE.JPG") repeat-x bottom #fff;
 }
 a, a:active, a:visited, a:link {}
