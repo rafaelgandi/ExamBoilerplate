@@ -53,6 +53,7 @@ a:link { outline: none; }
 .roundies10 {-moz-border-radius: 10px;-webkit-border-radius: 10px;border-radius: 10px;}
 .opacity50 {opacity: 0.5; filter: alpha(opacity=50);}
 .opacity0 {opacity: 0; filter: alpha(opacity=0);}
+.uppercase {text-transform: uppercase;}
 
 /************ end of DEV STYLES ***********/
 /* IE notice box styles */
