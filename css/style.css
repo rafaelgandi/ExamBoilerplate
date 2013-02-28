@@ -79,9 +79,17 @@ nav ul {
 	padding:0;			
 	list-style: none;
 }
-	nav li { float: left; }
+	nav li { 
+		float: left; 
+		margin-left: 3px;
+	}
 	nav a { text-decoration: none; }
-
+/* Old IE(6,7,8) css pie hack. * /	
+.oldie  {
+	position: relative;
+	behavior: url(css/PIE.htc);
+}
+/**/		 
 
 
 
